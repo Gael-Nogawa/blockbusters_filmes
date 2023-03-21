@@ -2,8 +2,145 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    border: 1px dashed hotpink;
 }
 
-img {
-    height: 260px;
+main {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+body {
+    background-color: gold;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: 'Titillium Web', sans-serif;
+    background-color: rgb(17, 17, 155);
+    color: #fff;
+    letter-spacing: 2px;
+    padding: 20px 40px;
+}
+
+.container li {
+    display: inline;
+}
+
+.container li a {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+    padding-left: 16px;
+}
+
+header .links-direcionado {
+    display: inline;
+    margin-left: 15px;
+}
+
+.encontre,
+.links-direcionado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 24px;
+}
+
+.links-direcionado li {
+    display: inline;
+    padding: 10px;
+    margin-bottom: 8px;
+}
+.links-direcionado li a {
+    text-decoration: none;
+}
+
+
+#container-filmes {
+    display: block;
+    margin-bottom: 45px;
+}
+#container-filmes img {
+    height: 180px;
+}
+
+#comedia-romance,
+#acao-ficcao,
+#suspense-terror {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+#comedia-romance div,
+#acao-ficcao div,
+#suspense-terror div {
+    padding: 10px 30px 10px 10px;
+
+}
+h3{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 30px;
+    padding-bottom: 8px;
+}
+p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container .about {
+    display: flex;
+    align-items: center;
+}
+
+#contato {
+    display: flex;
+}
+
+#contato .formulario {
+    width: 600px;
+}
+.formulario {
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+    padding: 20px;   
+}
+.cadastro {
+    padding-bottom: 10px;
+}
+
+.cadastro input,
+.cadastro textarea,
+.cadastro button {
+    width: 80%;
+    height: 30px;
+}
+.cadastro textarea {
+    height: 180px;
+}
+label {
+    padding-right: 100%;
+}
+
+#contato .links {
+    width: 600px;
+    padding: 20px;
+}
+
+#contato .links-rede img {
+    height: 24px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    line-height: 50px;
 }

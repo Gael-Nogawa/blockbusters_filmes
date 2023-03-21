@@ -5,12 +5,154 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./main.css">
-    <title>Blockbusters Filmes - locadora de filmes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;500&family=Titillium+Web:ital,wght@0,200;1,200&display=swap" rel="stylesheet">
+    <!--font-family: 'Dosis', sans-serif;
+font-family: 'Titillium Web', sans-serif;
+-->
+
+    <title>Blockbusters Filmes</title>
 </head>
+
 <body>
+    <header>
+        <div class="container">
+            <h1>Blockbuster Filmes</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Contatos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    
     <main>
+        <div class="encontre">
+            <h2>Encontre o seu filme aqui!</h2>
+        </div>
+        <div class="links-direcionado">
+            <nav>
+                <ul>
+                    <li><a href="#comedia-romance">Comédia / Romance</a></li>
+                    <li><a href="#acao-ficcao">Ação / Ficção</a></li>
+                    <li><a href="#suspense-terror">Supense / Terror</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <section class="container">
+            <hr>
+            <div id="container-filmes">
+                <div id="comedia-romance">
+                    <img src="./assets/curtindo a vida adoidados.jpeg">
+                    <div>
+                        <h3>lore</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum at architecto inventore ad dolorem possimus?                            </p>
+                    </div>
+                    <img src="./assets/curtindo a vida adoidados.jpeg">
+                    <div>
+                        <h3>lore</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum at architecto inventore ad dolorem possimus?                            </p>
+                    </div>
+                </div>    
+                <div id="acao-ficcao">
+                    <img src="./assets/curtindo a vida adoidados.jpeg">
+                    <div>
+                        <h3>lore</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum at architecto inventore ad dolorem possimus?                            </p>
+                    </div>
+                    <img src="./assets/curtindo a vida adoidados.jpeg">
+                    <div>
+                        <h3>lore</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum at architecto inventore ad dolorem possimus?                            </p>
+                    </div>
+                </div>    
+                <div id="suspense-terror">
+                    <img src="./assets/curtindo a vida adoidados.jpeg">
+                    <div>
+                        <h3>lore</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum at architecto inventore ad dolorem possimus?                            </p>
+                    </div>
+                    <img src="./assets/curtindo a vida adoidados.jpeg">
+                    <div>
+                        <h3>lore</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum at architecto inventore ad dolorem possimus?                            </p>
+                    </div>
+                </div>    
+            </div>
+            <hr>
+        </section>
+        
+        <section class="container">
+            <div class="about">
+                <img src="./assets/logo filme.jpg">
+            <div>
+                <h2>História</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda ea doloremque laboriosam, atque in perspiciatis impedit. Distinctio ipsum iste, praesentium, voluptate beatae voluptatum debitis aperiam saepe asperiores autem deleniti quasi, nam sunt accusamus! Laudantium vitae placeat nihil aliquid earum numquam dolorem harum architecto dolore at asperiores accusamus laborum facilis sit non fugiat, necessitatibus repellendus animi totam molestias! Ea facilis quisquam maiores libero! Eius, incidunt nobis! Explicabo velit tempora recusandae in?</p>
+            </div>
+            </div>
+            <hr>
+        </section>
+
+        <section id="contato">
+                <div class="formulario">
+                        <h3>fale conosco</h3>
+                        <form>
+                            <fieldset class="cadastro">
+                                <legend>Envie a sua sugestão</legend>
+                                    <label for="usuario">Seu nome: </label>
+                                    <input type="text" id="usuario" required><br>
+                                    <label for="email">Seu e-mail: </label>
+                                    <input type="email" id="email" required><br>
+                                    <label for="tel">Seu telefone: </label>
+                                    <input type="tel" id="tel"><br>
+                                    <textarea placeholder="seu texto" required></textarea><br>
+                                    <button type="submit">Enviar</button>
+                            </fieldset>
+                        </form>
+                </div>    
+                <div class="links">
+                    <h3>Nos acompanhe</h3>
+                    <ul class="links-rede">
+                        <li>
+                            <a href="#" title="Instagram">
+                                <img src="./assets/instagram.png" alt="Siga nos no instagram">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="Facebook">
+                                <img src="./assets/facebook.png" alt="Siga nos no Facebook">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="Youtube">
+                                <img src="./assets/youtube.png" alt="Siga nos no Youtube">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer">
+                <p>
+                    &copy Blockbuster Filmes. Todos os direitos reservados - 2023
+                </p>
+            </div>
+        </footer>
+
+
+
+
+    </main>
+
+    <!--    
+        <main id="container">
         <header>
-            <div class="container">
+            <div class="container-header">
                 <h1>Blockbusters Filmes</h1>
                 <nav>
                     <ul>
@@ -21,44 +163,126 @@
             </div>
         </header>
 
-        <!--Tipos de filmes-->
-        <section>
-            <div class="container">
-                <h2>Aqui você encontra todos os filmes!</h2>
+               <section>
+            <div class="container-h2">
+                <div>  
+                    <h2>Aqui você encontra todos os filmes!</h2>
+                </div>
+            </div>
+            <div class="container-tipos">
                 <nav>
                     <ul>
-                        <li><a href="#">Ação</a></li>
-                        <li><a href="#">Comédia</a></li>
-                        <li><a href="#">Romance</a></li>
-                        <li><a href="#">Suspense</a></li>
-                        <li><a href="#">Terror</a></li>
+                        <li><a href="#">Ação/ Ficção</a></li>
+                        <li><a href="#">Comédia / Romance</a></li>
+                        <li><a href=".suspense-terror">Suspense / Terror</a></li>
                     </ul>
                 </nav>
             </div>
         </section>
 
-        <!--Filmes-->
+       
         <section>
-            <div class="container">
-                <div class="filmes1">
+            <div class="container-filmes">
+                
+                <div class="comedia-romance">
                     <img src="./assets/curtindo a vida adoidados.jpeg" title="Capa do filmes 'Curtindo a vida adoidados'">
-                    <div>
-                        <h3>Curtindo a vida adoidados</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor vitae obcaecati, minus nemo provident alias!</p>
                         <div>
-                            <img src="./assets/a lista de schindler.jpg" alt="Capa do filmes 'A lista de Schindler">
-                            <div>
-                                <h3>A lista de Schindler</h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dolore inventore, totam atque laborum maiores qui nobis expedita neque. In.
-                                </p>
-                            </div>
+                            <h3>Curtindo a vida adoidados</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum odit alias sunt delectus perspiciatis dicta ad, eveniet sapiente itaque harum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor vitae obcaecati, minus nemo provident alias!</p>                        
                         </div>
+                </div>
+                <div class="comedia-romance">
+                    <img src="./assets/titanic.jpg" alt="capa do filme 'Titanic'"/>
+                    <div>
+                        <h3>Titanic</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dolore inventore, totam atque laborum maiores qui nobis expedita neque. In.
+                        </p>
                     </div>
                 </div>
             </div>
+            <div class="container-filmes">
+
+                <div class="acao-ficcao">
+                    <img src="./assets/matrix.jpg" alt="Capa do filme 'Matrix'"/>
+                    <div>
+                        <h3>Matrix</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic culpa beatae velit dolorem, dolore in magnam voluptatem ipsam.</p>
+                    </div>
+                </div>
+                <div class="acao-ficcao">
+
+                    <img src="./assets/de volta para o futuro.jpg" alt="Capa do filme 'De volta para o fututro"/>
+                
+                    <div>
+                        <h3>De volta para o futuro</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae blanditiis tenetur dolorem ipsum quasi et.</p>
+                    </div>
+                </div>    
+            </div>
+            <div class="container-filmes">
+                <div class="suspense-terror">
+                    <img src="./assets/o silencio dos inocentes.jpg" alt="Capa do filme'O silêncio dos inocentes'">
+                    <div>
+                        <h3>O silêncio dos inocentes</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod inventore at officia, modi alias illo, quos enim sequi ab autem ducimus repudiandae quisquam nulla odio a explicabo impedit minima mollitia.</p>
+                    </div>
+                </div>
+                <div class="suspense-terror">
+                    <img src="./assets/pulp-fiction.jpg" alt="Capa do filme 'Pulp Fiction'">
+                    <div>
+                        <h3>Pulp Fiction</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae nesciunt magni tenetur blanditiis nisi quaerat distinctio! Nostrum quo ipsum accusamus tempore quisquam repellat illo architecto, possimus officiis, autem modi velit.</p>
+                    </div>
+            </div>     
         </section>
-    </main>
-    
+        <section id="sobre">
+            <div class="sobre">
+                <img src="./assets/logo filme.jpg" alt="Logo de cinema">
+                <div>
+                    <h2>História da Loja</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam doloremque saepe, eum odit aliquid sit, eligendi natus dolorum enim vel fugit accusantium illo minima eius sint facere ipsum quisquam a.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio impedit dolorem ut quaerat sunt amet dolor placeat similique iusto adipisci.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur esse nostrum necessitatibus error aspernatur debitis atque id aliquam explicabo, magni beatae cumque et architecto modi ullam? Commodi vitae veniam, obcaecati, architecto est molestias dicta animi officia, eos ex ipsam laborum? Provident exercitationem similique, quae doloremque soluta nobis repudiandae suscipit cumque laborum sint delectus cupiditate consequuntur inventore atque rerum fugit est quod eos vel, quisquam voluptatibus minus velit! Laboriosam, quae excepturi.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact-methods">
+            <div>
+                <h3>Contatos</h3>
+                <form>
+                    <label for="text">Digite o seu nome: </label>
+                    <input type="text" placeholder="Tarantino" required>
+                    <label for="text">Digite o seu e-mail: </label>
+                    <input type="email" placeholder="quentin@tarantino.com" required>
+                    <label for="tel">Digite o seu telefone</label>
+                    <input type="tel" placeholder="99 12345-6789">
+                    <textarea placeholder="Digite o seu texto"></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+            <div>
+                <h3>Nos acompanhe</h3>
+                <ul>
+                    <li>
+                        <a href="#" title="Siga nos no instagram">
+                            <img src="./assets/instagram.png" alt="Logo instagram">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" title="Siga nos no facebook">
+                            <img src="./assets/facebook.png" alt="Logo facebook">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" title="Siga nos no youtube">
+                            <img src="./assets/youtube.png" alt="Logo youtube">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>-->
+
 </body>
 </html>
