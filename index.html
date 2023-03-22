@@ -21,15 +21,15 @@ font-family: 'Titillium Web', sans-serif;
             <h1>Blockbuster Filmes</h1>
             <nav>
                 <ul>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Contatos</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contatos</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
     
-    <main>
+    <section>
         <div class="encontre">
             <h2>Encontre o seu filme aqui!</h2>
         </div>
@@ -42,43 +42,57 @@ font-family: 'Titillium Web', sans-serif;
                 </ul>
             </nav>
         </div>
-
+        <br>
+        <hr>
+    </section>
         <section class="container">
-            <hr>
+            
             <div id="container-filmes">
                 <div id="comedia-romance">
                     <img src="./assets/curtindo a vida adoidados.jpeg">
                     <div>
-                        <h3>lore</h3>
+                        <h3>
+                            <a href="#" title="Saiba mais">Curtindo a vida adoidado</a>
+                        </h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum at architecto inventore ad dolorem possimus?                            </p>
                     </div>
-                    <img src="./assets/curtindo a vida adoidados.jpeg">
+                    <img src="./assets/titanic.jpg">
                     <div>
-                        <h3>lore</h3>
+                        <h3>
+                            <a href="#" title="Saiba mais">Titanic</a>
+                        </h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum at architecto inventore ad dolorem possimus?                            </p>
                     </div>
                 </div>    
                 <div id="acao-ficcao">
-                    <img src="./assets/curtindo a vida adoidados.jpeg">
+                    <img src="./assets/de volta para o futuro.jpg">
                     <div>
-                        <h3>lore</h3>
+                        <h3>
+                            <a href="#" title="Saiba mais">De volta para o futuro</a>
+                        </h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum at architecto inventore ad dolorem possimus?                            </p>
                     </div>
-                    <img src="./assets/curtindo a vida adoidados.jpeg">
+                    <img src="./assets/wall-e.jpg">
                     <div>
-                        <h3>lore</h3>
+                        <h3>
+                            <a href="#" title="Saiba mais">Wall-e</a>
+                        </h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum at architecto inventore ad dolorem possimus?                            </p>
                     </div>
                 </div>    
                 <div id="suspense-terror">
-                    <img src="./assets/curtindo a vida adoidados.jpeg">
+                    <img src="./assets/o silencio dos inocentes.jpg">
                     <div>
-                        <h3>lore</h3>
+                        <h3>
+                            <a href="#" title="Saiba mais">O silêncio dos inocentes</a>
+                        </h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum at architecto inventore ad dolorem possimus?                            </p>
                     </div>
-                    <img src="./assets/curtindo a vida adoidados.jpeg">
+                    <img src="./assets/a lista de schindler.jpg">
                     <div>
-                        <h3>lore</h3>
+                        <h3>
+                            <a href="#" title="Saiba mais">A lista de Schindler</a>
+                        </h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum at architecto inventore ad dolorem possimus?                            </p>
                     </div>
                 </div>    
@@ -86,30 +100,32 @@ font-family: 'Titillium Web', sans-serif;
             <hr>
         </section>
         
-        <section class="container">
-            <div class="about">
-                <img src="./assets/logo filme.jpg">
-            <div>
-                <h2>História</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda ea doloremque laboriosam, atque in perspiciatis impedit. Distinctio ipsum iste, praesentium, voluptate beatae voluptatum debitis aperiam saepe asperiores autem deleniti quasi, nam sunt accusamus! Laudantium vitae placeat nihil aliquid earum numquam dolorem harum architecto dolore at asperiores accusamus laborum facilis sit non fugiat, necessitatibus repellendus animi totam molestias! Ea facilis quisquam maiores libero! Eius, incidunt nobis! Explicabo velit tempora recusandae in?</p>
-            </div>
-            </div>
-            <hr>
+        <section id="sobre"> 
+            <div class="container">
+                <div class="about">
+                    <img src="./assets/logo filme.jpg">
+                    <div class="sobre_loja">
+                        <h2>História</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda ea doloremque laboriosam, atque in perspiciatis impedit. Distinctio ipsum iste, praesentium, voluptate beatae voluptatum debitis aperiam saepe asperiores autem deleniti quasi, nam sunt accusamus! Laudantium vitae placeat nihil aliquid earum numquam dolorem harum architecto dolore at asperiores accusamus laborum facilis sit non fugiat, necessitatibus repellendus animi totam molestias! Ea facilis quisquam maiores libero! Eius, incidunt nobis! Explicabo velit tempora recusandae in?</p>
+                    </div>
+                </div>
+                <hr>
+            </div>   
         </section>
 
         <section id="contato">
                 <div class="formulario">
-                        <h3>fale conosco</h3>
+                        <h3>Fale conosco</h3>
                         <form>
                             <fieldset class="cadastro">
-                                <legend>Envie a sua sugestão</legend>
+                                <legend>Envie a sua sugestão ou dúvida</legend>
                                     <label for="usuario">Seu nome: </label>
                                     <input type="text" id="usuario" required><br>
                                     <label for="email">Seu e-mail: </label>
                                     <input type="email" id="email" required><br>
                                     <label for="tel">Seu telefone: </label>
                                     <input type="tel" id="tel"><br>
-                                    <textarea placeholder="seu texto" required></textarea><br>
+                                    <textarea placeholder="Insira o seu texto" required></textarea><br>
                                     <button type="submit">Enviar</button>
                             </fieldset>
                         </form>
@@ -136,18 +152,14 @@ font-family: 'Titillium Web', sans-serif;
                 </div>
             </div>
         </section>
-        <footer>
-            <div class="footer">
-                <p>
-                    &copy Blockbuster Filmes. Todos os direitos reservados - 2023
-                </p>
-            </div>
-        </footer>
-
-
-
-
-    </main>
+    
+    <footer>
+        <div class="footer">
+            <p>
+                &copy Blockbuster Filmes. Todos os direitos reservados - 2023
+            </p>
+        </div>
+    </footer>
 
     <!--    
         <main id="container">

@@ -1,68 +1,85 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
-    border: 1px dashed hotpink;
-}
+    padding: 0;   
 
-main {
+}
+section {
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
 }
-
 body {
     background-color: gold;
 }
 
+h2, h3, header {
+    font-family: 'Titillium Web', sans-serif;
+    padding-bottom: 10px;
+    color: black;
+}
+h3 {
+    font-size: 24px;
+}
+p {
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+}
+a {
+    padding: 10px;
+    color: rgb(29, 29, 29);
+}
 header .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
-    font-family: 'Titillium Web', sans-serif;
-    background-color: rgb(17, 17, 155);
+    padding: 30px;
+    background-color: rgb(34, 36, 146);
     color: #fff;
     letter-spacing: 2px;
-    padding: 20px 40px;
+    font-size: 20px;
 }
 
-.container li {
+.container li,
+#contato .links-rede li {
     display: inline;
+}
+.container li:hover,
+.links-direcionado li:hover,
+#container-filmes a:hover,
+button:hover {
+    background-color:rgb(250, 229, 110);
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 10px;
 }
 
 .container li a {
     color: #fff;
     font-size: 24px;
+    font-weight: bold;
     text-decoration: none;
-    padding-left: 16px;
+    padding: 16px;
 }
 
-header .links-direcionado {
+.links-direcionado li{
     display: inline;
     margin-left: 15px;
 }
 
 .encontre,
-.links-direcionado {
+.links-direcionado  {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px;
-    font-family: 'Dosis', sans-serif;
-    font-size: 24px;
+    font-family: 'Titillinium web', sans-serif;
+    font-size: 20px;
 }
-
-.links-direcionado li {
-    display: inline;
-    padding: 10px;
-    margin-bottom: 8px;
-}
-.links-direcionado li a {
+#container-filmes a,
+.links-direcionado li a,
+#contato .links-rede li a {
     text-decoration: none;
 }
-
-
 #container-filmes {
     display: block;
     margin-bottom: 45px;
@@ -70,7 +87,6 @@ header .links-direcionado {
 #container-filmes img {
     height: 180px;
 }
-
 #comedia-romance,
 #acao-ficcao,
 #suspense-terror {
@@ -78,25 +94,19 @@ header .links-direcionado {
     align-items: flex-start;
     padding: 20px;
 }
-
 #comedia-romance div,
 #acao-ficcao div,
 #suspense-terror div {
     padding: 10px 30px 10px 10px;
 
 }
-h3{
-    font-family: 'Titillium Web', sans-serif;
-    font-size: 30px;
-    padding-bottom: 8px;
-}
-p {
-    font-family: 'Courier New', Courier, monospace;
-}
-
 .container .about {
     display: flex;
-    align-items: center;
+    align-items:flex-start;
+    padding: 40px;
+}
+.container .sobre_loja {
+    padding-left: 20px;
 }
 
 #contato {
@@ -112,35 +122,36 @@ p {
     padding: 20px;   
 }
 .cadastro {
-    padding-bottom: 10px;
+    padding: 10px;
 }
-
 .cadastro input,
 .cadastro textarea,
 .cadastro button {
-    width: 80%;
+    display: block;
+    width: 100%;
     height: 30px;
+    padding: 16px;
+    font-size: 16px;
+    border-radius: 5px;
 }
 .cadastro textarea {
     height: 180px;
+    resize: none;
 }
-label {
-    padding-right: 100%;
-}
+
 
 #contato .links {
     width: 600px;
     padding: 20px;
 }
-
 #contato .links-rede img {
     height: 24px;
 }
-
 .footer {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: blue;
     line-height: 50px;
+    color: #f1f1f1;
 }
